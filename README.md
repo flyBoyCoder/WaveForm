@@ -2,4 +2,4 @@
 
 仿百度外卖个人中心波纹效果
 
-http://om2r09rtc.bkt.clouddn.com/IMG_1655.PNG
+ ![image](https://github.com/lbFlyBoy/WaveForm/BDWaveForm/IMG_1655.PNG)
