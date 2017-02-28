@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13F04B271E65513100379DE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04B261E65513100379DE4 /* main.m */; };
+		13F04B2A1E65513100379DE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04B291E65513100379DE4 /* AppDelegate.m */; };
+		13F04B2D1E65513100379DE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04B2C1E65513100379DE4 /* ViewController.m */; };
+		13F04B301E65513100379DE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F04B2E1E65513100379DE4 /* Main.storyboard */; };
+		13F04B321E65513100379DE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F04B311E65513100379DE4 /* Assets.xcassets */; };
+		13F04B351E65513100379DE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F04B331E65513100379DE4 /* LaunchScreen.storyboard */; };
+		13F04B401E65513200379DE4 /* BDWaveFormTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04B3F1E65513200379DE4 /* BDWaveFormTests.m */; };
+		13F04B4B1E65513200379DE4 /* BDWaveFormUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04B4A1E65513200379DE4 /* BDWaveFormUITests.m */; };
+		13F04B5D1E65516B00379DE4 /* WaveForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F04B5C1E65516B00379DE4 /* WaveForm.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13F04B3C1E65513200379DE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13F04B1A1E65513100379DE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13F04B211E65513100379DE4;
+			remoteInfo = BDWaveForm;
+		};
+		13F04B471E65513200379DE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13F04B1A1E65513100379DE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13F04B211E65513100379DE4;
+			remoteInfo = BDWaveForm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13F04B221E65513100379DE4 /* BDWaveForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDWaveForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F04B261E65513100379DE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13F04B281E65513100379DE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13F04B291E65513100379DE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13F04B2B1E65513100379DE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13F04B2C1E65513100379DE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13F04B2F1E65513100379DE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13F04B311E65513100379DE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13F04B341E65513100379DE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13F04B361E65513100379DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F04B3B1E65513200379DE4 /* BDWaveFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDWaveFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F04B3F1E65513200379DE4 /* BDWaveFormTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDWaveFormTests.m; sourceTree = "<group>"; };
+		13F04B411E65513200379DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F04B461E65513200379DE4 /* BDWaveFormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDWaveFormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F04B4A1E65513200379DE4 /* BDWaveFormUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDWaveFormUITests.m; sourceTree = "<group>"; };
+		13F04B4C1E65513200379DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F04B5B1E65516B00379DE4 /* WaveForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveForm.h; sourceTree = "<group>"; };
+		13F04B5C1E65516B00379DE4 /* WaveForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveForm.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13F04B1F1E65513100379DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F04B381E65513200379DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F04B431E65513200379DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13F04B191E65513100379DE4 = {
+			isa = PBXGroup;
+			children = (
+				13F04B241E65513100379DE4 /* BDWaveForm */,
+				13F04B3E1E65513200379DE4 /* BDWaveFormTests */,
+				13F04B491E65513200379DE4 /* BDWaveFormUITests */,
+				13F04B231E65513100379DE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13F04B231E65513100379DE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13F04B221E65513100379DE4 /* BDWaveForm.app */,
+				13F04B3B1E65513200379DE4 /* BDWaveFormTests.xctest */,
+				13F04B461E65513200379DE4 /* BDWaveFormUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13F04B241E65513100379DE4 /* BDWaveForm */ = {
+			isa = PBXGroup;
+			children = (
+				13F04B5B1E65516B00379DE4 /* WaveForm.h */,
+				13F04B5C1E65516B00379DE4 /* WaveForm.m */,
+				13F04B281E65513100379DE4 /* AppDelegate.h */,
+				13F04B291E65513100379DE4 /* AppDelegate.m */,
+				13F04B2B1E65513100379DE4 /* ViewController.h */,
+				13F04B2C1E65513100379DE4 /* ViewController.m */,
+				13F04B2E1E65513100379DE4 /* Main.storyboard */,
+				13F04B311E65513100379DE4 /* Assets.xcassets */,
+				13F04B331E65513100379DE4 /* LaunchScreen.storyboard */,
+				13F04B361E65513100379DE4 /* Info.plist */,
+				13F04B251E65513100379DE4 /* Supporting Files */,
+			);
+			path = BDWaveForm;
+			sourceTree = "<group>";
+		};
+		13F04B251E65513100379DE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13F04B261E65513100379DE4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13F04B3E1E65513200379DE4 /* BDWaveFormTests */ = {
+			isa = PBXGroup;
+			children = (
+				13F04B3F1E65513200379DE4 /* BDWaveFormTests.m */,
+				13F04B411E65513200379DE4 /* Info.plist */,
+			);
+			path = BDWaveFormTests;
+			sourceTree = "<group>";
+		};
+		13F04B491E65513200379DE4 /* BDWaveFormUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13F04B4A1E65513200379DE4 /* BDWaveFormUITests.m */,
+				13F04B4C1E65513200379DE4 /* Info.plist */,
+			);
+			path = BDWaveFormUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13F04B211E65513100379DE4 /* BDWaveForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F04B4F1E65513200379DE4 /* Build configuration list for PBXNativeTarget "BDWaveForm" */;
+			buildPhases = (
+				13F04B1E1E65513100379DE4 /* Sources */,
+				13F04B1F1E65513100379DE4 /* Frameworks */,
+				13F04B201E65513100379DE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BDWaveForm;
+			productName = BDWaveForm;
+			productReference = 13F04B221E65513100379DE4 /* BDWaveForm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13F04B3A1E65513200379DE4 /* BDWaveFormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F04B521E65513200379DE4 /* Build configuration list for PBXNativeTarget "BDWaveFormTests" */;
+			buildPhases = (
+				13F04B371E65513200379DE4 /* Sources */,
+				13F04B381E65513200379DE4 /* Frameworks */,
+				13F04B391E65513200379DE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13F04B3D1E65513200379DE4 /* PBXTargetDependency */,
+			);
+			name = BDWaveFormTests;
+			productName = BDWaveFormTests;
+			productReference = 13F04B3B1E65513200379DE4 /* BDWaveFormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13F04B451E65513200379DE4 /* BDWaveFormUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F04B551E65513200379DE4 /* Build configuration list for PBXNativeTarget "BDWaveFormUITests" */;
+			buildPhases = (
+				13F04B421E65513200379DE4 /* Sources */,
+				13F04B431E65513200379DE4 /* Frameworks */,
+				13F04B441E65513200379DE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13F04B481E65513200379DE4 /* PBXTargetDependency */,
+			);
+			name = BDWaveFormUITests;
+			productName = BDWaveFormUITests;
+			productReference = 13F04B461E65513200379DE4 /* BDWaveFormUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13F04B1A1E65513100379DE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = benbun;
+				TargetAttributes = {
+					13F04B211E65513100379DE4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MW2U6CJL92;
+						ProvisioningStyle = Automatic;
+					};
+					13F04B3A1E65513200379DE4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MW2U6CJL92;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13F04B211E65513100379DE4;
+					};
+					13F04B451E65513200379DE4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MW2U6CJL92;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13F04B211E65513100379DE4;
+					};
+				};
+			};
+			buildConfigurationList = 13F04B1D1E65513100379DE4 /* Build configuration list for PBXProject "BDWaveForm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13F04B191E65513100379DE4;
+			productRefGroup = 13F04B231E65513100379DE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13F04B211E65513100379DE4 /* BDWaveForm */,
+				13F04B3A1E65513200379DE4 /* BDWaveFormTests */,
+				13F04B451E65513200379DE4 /* BDWaveFormUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13F04B201E65513100379DE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F04B351E65513100379DE4 /* LaunchScreen.storyboard in Resources */,
+				13F04B321E65513100379DE4 /* Assets.xcassets in Resources */,
+				13F04B301E65513100379DE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F04B391E65513200379DE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F04B441E65513200379DE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13F04B1E1E65513100379DE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F04B5D1E65516B00379DE4 /* WaveForm.m in Sources */,
+				13F04B2D1E65513100379DE4 /* ViewController.m in Sources */,
+				13F04B2A1E65513100379DE4 /* AppDelegate.m in Sources */,
+				13F04B271E65513100379DE4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F04B371E65513200379DE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F04B401E65513200379DE4 /* BDWaveFormTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F04B421E65513200379DE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F04B4B1E65513200379DE4 /* BDWaveFormUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13F04B3D1E65513200379DE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13F04B211E65513100379DE4 /* BDWaveForm */;
+			targetProxy = 13F04B3C1E65513200379DE4 /* PBXContainerItemProxy */;
+		};
+		13F04B481E65513200379DE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13F04B211E65513100379DE4 /* BDWaveForm */;
+			targetProxy = 13F04B471E65513200379DE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13F04B2E1E65513100379DE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13F04B2F1E65513100379DE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13F04B331E65513100379DE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13F04B341E65513100379DE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13F04B4D1E65513200379DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13F04B4E1E65513200379DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13F04B501E65513200379DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MW2U6CJL92;
+				INFOPLIST_FILE = BDWaveForm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benbun.BDWaveForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13F04B511E65513200379DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MW2U6CJL92;
+				INFOPLIST_FILE = BDWaveForm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benbun.BDWaveForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13F04B531E65513200379DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MW2U6CJL92;
+				INFOPLIST_FILE = BDWaveFormTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benbun.BDWaveFormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BDWaveForm.app/BDWaveForm";
+			};
+			name = Debug;
+		};
+		13F04B541E65513200379DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MW2U6CJL92;
+				INFOPLIST_FILE = BDWaveFormTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benbun.BDWaveFormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BDWaveForm.app/BDWaveForm";
+			};
+			name = Release;
+		};
+		13F04B561E65513200379DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MW2U6CJL92;
+				INFOPLIST_FILE = BDWaveFormUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benbun.BDWaveFormUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BDWaveForm;
+			};
+			name = Debug;
+		};
+		13F04B571E65513200379DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MW2U6CJL92;
+				INFOPLIST_FILE = BDWaveFormUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benbun.BDWaveFormUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BDWaveForm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13F04B1D1E65513100379DE4 /* Build configuration list for PBXProject "BDWaveForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F04B4D1E65513200379DE4 /* Debug */,
+				13F04B4E1E65513200379DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F04B4F1E65513200379DE4 /* Build configuration list for PBXNativeTarget "BDWaveForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F04B501E65513200379DE4 /* Debug */,
+				13F04B511E65513200379DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13F04B521E65513200379DE4 /* Build configuration list for PBXNativeTarget "BDWaveFormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F04B531E65513200379DE4 /* Debug */,
+				13F04B541E65513200379DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13F04B551E65513200379DE4 /* Build configuration list for PBXNativeTarget "BDWaveFormUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F04B561E65513200379DE4 /* Debug */,
+				13F04B571E65513200379DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13F04B1A1E65513100379DE4 /* Project object */;
+}
